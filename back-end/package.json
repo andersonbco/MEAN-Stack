@@ -1,0 +1,19 @@
+{
+  "name": "mega-store",
+  "version": "1.0.0",
+  "description": "API para venda de softwares",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm install -g nodemon && npm install",
+    "start": "nodemon ./bin/www"
+  },
+  "author": "Anderson Correa <anderosnbcorrea@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.4"
+  }
+}
